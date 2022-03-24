@@ -1,0 +1,143 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "博客"
+			}
+		}, {
+			"path": "pages/special/special",
+			"style": {
+				"navigationBarTitleText": "专题",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/resources/resources",
+			"style": {
+				"navigationBarTitleText": "资源",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "components/Carousel",
+			"style": {
+				"navigationBarTitleText": "轮播",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/Subpage/Subpage",
+			"style": {
+				"navigationBarTitleText": "文章",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/Subpage/Carousel",
+			"style": {
+				"navigationBarTitleText": "轮播内容",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Subpage/slideleft",
+			"style": {
+				"navigationBarTitleText": "焦点",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Subpage/friend",
+			"style": {
+				"navigationBarTitleText": "友情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Subpage/share",
+			"style": {
+				"navigationBarTitleText": "分享",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/special/SubpageSpecial",
+			"style": {
+				"navigationBarTitleText":"这是专题内容页",
+				"enablePullDownRefresh": false
+			}
+		},
+		 {
+			 "path":"pages/Subpage/login",
+			 "style":{
+				 "navigationBarTitleText":"登录",
+				 "enablePullDownRefresh":false
+			 }
+		 }
+        ,{
+            "path" : "pages/Subpage/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "这是关于页",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	 //底栏
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#00aa00",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			    //页面路劲
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				//图片和图片经过的颜色
+				"iconPath": "static/images/index.png",
+				"selectedIconPath": "static/images/indexhover.png"
+			},
+			{
+				"pagePath": "pages/special/special",
+				"text": "专题",
+				"iconPath": "static/images/special.png",
+				"selectedIconPath": "static/images/specialhover.png"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"text": "发现",
+				"iconPath": "static/images/find.png",
+				"selectedIconPath": "static/images/findhover.png"
+			},
+			{
+				"pagePath": "pages/resources/resources",
+				"text": "资源",
+				"iconPath": "static/images/resources.png",
+				"selectedIconPath": "static/images/resourceshover.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "static/images/me.png",
+				"selectedIconPath": "static/images/mehover.png"
+			}
+		]
+	}
+}
